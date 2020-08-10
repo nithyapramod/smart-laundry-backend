@@ -1,1 +1,2 @@
-# smart-laundry-backend
+# Smart Laundry Backend
+Backend service for the Smart Laundry Application.

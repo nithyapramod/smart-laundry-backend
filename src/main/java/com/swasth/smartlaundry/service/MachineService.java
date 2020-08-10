@@ -1,9 +1,9 @@
-package com.pramod.gireesh.service;
+package com.swasth.smartlaundry.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.pramod.gireesh.model.MachineModel;
-import com.pramod.gireesh.repository.MachineRepository;
+import com.swasth.smartlaundry.model.MachineModel;
+import com.swasth.smartlaundry.repository.MachineRepository;
 
 
         @Service

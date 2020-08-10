@@ -1,4 +1,4 @@
-package com.pramod.gireesh.model;
+package com.swasth.smartlaundry.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

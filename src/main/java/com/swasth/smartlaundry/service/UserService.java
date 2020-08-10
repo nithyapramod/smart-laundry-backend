@@ -1,14 +1,14 @@
-package com.pramod.gireesh.service;
+package com.swasth.smartlaundry.service;
+import com.swasth.smartlaundry.model.UserModel;
+import com.swasth.smartlaundry.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.pramod.gireesh.model.UserModel;
-import com.pramod.gireesh.repository.UserRepository;
 
 @Service
 public class UserService {
 	
 	@Autowired
-	UserRepository userRepository;
+    UserRepository userRepository;
 	
 	public String handleLogin(UserModel user) {
 		UserModel dbUser = userRepository.findByPhnumber(user.getPhnumber());

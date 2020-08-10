@@ -1,4 +1,4 @@
-package com.pramod.gireesh.controller;
+package com.swasth.smartlaundry.controller;
 
 import java.util.List;
 
@@ -9,10 +9,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
-import com.pramod.gireesh.model.MachineModel;
-import com.pramod.gireesh.model.ProcessModel;
-import com.pramod.gireesh.service.MachineService;
-import com.pramod.gireesh.service.ProcessService;
+import com.swasth.smartlaundry.model.MachineModel;
+import com.swasth.smartlaundry.model.ProcessModel;
+import com.swasth.smartlaundry.service.MachineService;
+import com.swasth.smartlaundry.service.ProcessService;
 
 @RestController
 @RequestMapping("/machine")

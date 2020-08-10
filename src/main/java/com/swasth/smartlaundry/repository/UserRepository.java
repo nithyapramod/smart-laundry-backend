@@ -1,9 +1,9 @@
-package com.pramod.gireesh.repository;
+package com.swasth.smartlaundry.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.pramod.gireesh.model.UserModel;
+import com.swasth.smartlaundry.model.UserModel;
 
 @Repository
 public interface UserRepository extends JpaRepository<UserModel, Integer>{

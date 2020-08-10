@@ -1,13 +1,13 @@
-package com.pramod.gireesh;
+package com.swasth.smartlaundry;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class UserServiceApplication {
+public class SmartLaundryApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(UserServiceApplication.class, args);
+		SpringApplication.run(SmartLaundryApplication.class, args);
 	}
 
 }

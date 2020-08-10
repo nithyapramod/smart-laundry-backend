@@ -1,9 +1,8 @@
-package com.pramod.gireesh.repository;
+package com.swasth.smartlaundry.repository;
 
+import com.swasth.smartlaundry.model.MachineModel;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-
-import com.pramod.gireesh.model.MachineModel;
 
 @Repository
 public interface MachineRepository extends JpaRepository<MachineModel, Integer>{

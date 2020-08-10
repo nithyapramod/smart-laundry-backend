@@ -1,10 +1,10 @@
-package com.pramod.gireesh;
+package com.swasth.smartlaundry;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class UserServiceApplicationTests {
+class SmartLaundryApplicationTests {
 
 	@Test
 	void contextLoads() {
